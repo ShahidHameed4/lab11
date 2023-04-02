@@ -14,5 +14,5 @@ test('renderTask02', () => {
 test('renderTask03', () => {
   render(<App />);
   const linkElement = screen.getByTestId('list');
-  expect(linkElement).toHaveTextContent('5');
+  expect(linkElement).toHaveTextContent('6');
 });
